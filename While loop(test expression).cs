@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace @for.loop_example_1
+namespace @while loop
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace @for.loop_example_1
             int a = 15;
             while(a<1 || a>10)
             {
-                Console.WriteLine("Enter a value (1_10)");
+                Console.WriteLine("Enter a value (1-10)");
                 a =Convert.ToInt32(Console.ReadLine());
             }
             
