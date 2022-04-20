@@ -10,13 +10,13 @@ namespace @for.loop_example_1
     {
         static void Main()
         {
-            int t;
+           int t;
             Console.WriteLine("Enter table value ");
-            t = Convert.ToInt32((Console.ReadLine()));
+            t = Convert.ToInt32(Console.ReadLine());
 
-            for (int a = 10; a <= 10; a++)
+            for (int a = 1; a <= 10; a++)
             {
-                Console.WriteLine((t) ("+ * ") +a ("+ = ") (+t * a));
+                Console.WriteLine(t+" X " +a+" = "+(t * a));
             }
             Console.ReadLine();
 
